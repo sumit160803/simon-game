@@ -46,6 +46,8 @@ $(document).keypress(function (){
 })
 
 function checkAnswer(currentLevel){
+
+    
     if(userClickedPattern[currentLevel] == gamePattern[currentLevel]){
         if (userClickedPattern.length === gamePattern.length) {
             setTimeout(function() {
